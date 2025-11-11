@@ -347,21 +347,24 @@ body{
     padding: 50px 0px;
 }
 .archi_types_imgs{
-    overflow: hidden;
+    width: 100%;
 }
 .archi_types_imgs img{
     width: 100%;
-    height: 410px;
+    height: auto;
     object-fit: cover;
     margin-top: 25px;
     transition: all 0.3s ease;
     overflow: hidden;
 }
 .archi_types_imgs img:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 .archi_types_imgs img.small_img{
-    height: 344px;
+    height: 349px;
+}
+.archi_types_imgs img.small_img2{
+    height: 332px;
 }
 .about_hero_section{
     margin-top: 70px;
