@@ -472,6 +472,9 @@ body{
     margin: auto;
     margin-top: 40px;
 }
+.aboutp_txt_div#for_width{
+    max-width: 100%;
+}
 .aboutp_txt_div p{
     font-weight: 300;
     font-size: 18px;
@@ -509,6 +512,10 @@ body{
 .aboutp_img_div img{
     width: 100%;
     object-fit: cover;
+    height: 400px;
+}
+.aboutp_img_div img.custom_img{
+    height: 500px;
 }
 .contact_section{
     padding: 50px 0px;
