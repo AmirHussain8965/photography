@@ -26,7 +26,7 @@ body{
     font-size: 16px;
     position: relative;
     color: #454545 !important;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .navbar ul li a.active{
     font-weight: 500;
@@ -108,12 +108,16 @@ body{
     z-index: 11;
     text-align: end;
 }
+.hero_swiper_img{
+    position: relative;
+}
 .hero_swiper_img img{
     width: 100%;
     height: 100vh;
     object-fit: cover;
 }
 .hero_swiper_txt{
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -138,7 +142,7 @@ body{
     font-weight: 500;
     font-size: 48px;
     line-height: 64px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #FFFFFF;
     margin-bottom: 0;
 }
@@ -147,7 +151,7 @@ body{
     font-weight: 300;
     font-size: 40px;
     line-height: 64px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #FFFFFF;
 }
 .hero_swiper_txt_inner2{
@@ -157,7 +161,7 @@ body{
 .hero_swiper_txt_inner2 p{
     font-weight: 300;
     font-size: 18px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #E8E8E8;
     margin-bottom: 0;
 }
@@ -172,7 +176,7 @@ body{
     padding: 8px 20px;
     font-weight: 300;
     font-size: 16px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     text-align: center;
     color: #FFFFFF;
 }
@@ -202,27 +206,23 @@ body{
     border-radius: 50%;
 }
 .title_div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    margin-top: 10px;
 }
 .title_div h1{
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 64px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #000000;
     margin-bottom: 0;
 }
 .title_div p{
     width: 100%;
-    max-width: 410px;
-    text-align: end;
+    text-align: start;
     font-weight: 300;
     font-size: 18px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #454545;
     margin-bottom: 0;
 }
@@ -236,8 +236,7 @@ body{
 }
 .about_card_img img{
     width: 100%;
-    height: auto;
-    min-height: 410px;
+    height: 410px;
     object-fit: cover;
 }
 .about_card_txt{
@@ -273,7 +272,7 @@ body{
 .footer_txt1 p{
     font-weight: 300;
     font-size: 18px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #454545;
     margin-bottom: 0;
     padding-top: 6px;
@@ -287,13 +286,13 @@ body{
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #000000;
 }
 .footer_links_inner a{
     font-weight: 300;
     font-size: 18px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #454545;
     text-decoration: none;
 }
@@ -306,7 +305,7 @@ body{
 .footer2_main p{
     font-weight: 300;
     font-size: 18px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #454545;
     margin-bottom: 0;
 }
@@ -331,14 +330,14 @@ body{
     font-weight: 500;
     font-size: 48px;
     line-height: 64px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #000000;
 }
 .hero2_txt_main p{
     font-weight: 300;
     font-size: 18px;
     text-align: center;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #454545;
     padding: 0px 15px;
     margin-bottom: 0;
@@ -406,7 +405,7 @@ body{
     font-weight: 500;
     font-size: 64px;
     line-height: 64px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #FFFFFF;
     margin-bottom: 0;
 }
@@ -444,7 +443,7 @@ body{
     font-size: 48px;
     line-height: 37px;
     text-align: right;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #FFFFFF;
 }
 .about_hero_txt2_inner p{
@@ -452,7 +451,7 @@ body{
     font-size: 20px;
     line-height: 37px;
     text-align: right;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #FFFFFF;
 }
 .aboutp_section{
@@ -463,7 +462,7 @@ body{
     font-weight: 500;
     font-size: 48px;
     line-height: 64px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #000000;
 }
 .aboutp_txt_div{
@@ -478,7 +477,7 @@ body{
 .aboutp_txt_div p{
     font-weight: 300;
     font-size: 18px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #454545;
     margin-bottom: 20px;
 }
@@ -488,7 +487,7 @@ body{
 .aboutp_txt_div ul li{
     font-weight: 300;
     font-size: 18px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #454545;
     list-style-type: none;
     font-style: italic;
@@ -499,7 +498,7 @@ body{
 .aboutp_txt_div h5{
     font-weight: 500;
     font-size: 24px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #454545;
     margin-bottom: 20px;
 }
@@ -527,15 +526,16 @@ body{
     margin-top: 40px;
     border: 1px solid #DFDFDFA8;
     background: #E8E8E81A;
-    padding: 20px;
+    padding: 0px 20px;
     border-radius: 4px;
 } 
 .contact_left_card_main h3{
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 24px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #000000;
+    margin-bottom: 40px;
 }
 .contact_left_card_input{
     display: flex;
@@ -546,7 +546,7 @@ body{
 .contact_left_card_input label{
     font-weight: 300;
     font-size: 20px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #454545;
 }
 .contact_left_card_input input,
@@ -564,7 +564,7 @@ body{
     background: #000000;
     font-weight: 300;
     font-size: 16px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #FFFFFF;
     padding: 10px 12px;
     margin-top: 15px;
@@ -593,8 +593,18 @@ body{
     color: #454545;
     text-decoration: none;
 }
+.contact_right_card_txt button{
+    background: #000000;
+    font-weight: 300;
+    font-size: 16px;
+    /* text-transform: capitalize; */
+    color: #FFFFFF;
+    padding: 10px 12px;
+    margin-top: 15px;
+    border: none;
+}
 .contact_right_card_map iframe{
-    height: 650px;
+    height: 600px;
     width: 100%;
     border-radius: 4px;
     margin-top: 20px;
@@ -708,7 +718,7 @@ body{
         font-weight: 500;
         font-size: 48px;
         line-height: 64px;
-        text-transform: uppercase;
+        text-transform: capitalize;
         color: #FFFFFF;
         margin-bottom: 0;
     }
@@ -720,7 +730,7 @@ body{
     .aboutp_txt_div p {
         font-weight: 300;
         font-size: 16px;
-        text-transform: capitalize;
+        /* text-transform: capitalize; */
         color: #454545;
         margin-bottom: 20px;
     }
